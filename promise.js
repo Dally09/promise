@@ -7,7 +7,7 @@ let promise = new Promise((resolve, reject) => {
     }
 })
 
-promise.then((message) => {
+promise.then((message) => { // then is used to return a promise
     console.log(message + ', promise has passed!')
 }).catch((message) => {
     console.log(message + ', promise has failed')
